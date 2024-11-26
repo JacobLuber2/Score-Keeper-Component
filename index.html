@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ping-Pong Score Keeper</title>
+        <link href="index.css" rel="stylesheet" />
+        <script src="app.js" defer></script>
+    </head>
+    <body>
+        <div id="main-wrapper">
+            <img src="images/pingpong-paddles.jpg" />
+            <span id="card">
+                <h1>Ping Pong Score Keeper</h1>
+                <span class="scores-wrapper">
+                    <span id="p1-score">0</span>
+                    <span>to</span>
+                    <span id="p2-score">0</span>
+                </span>
+                <h2>Use the buttons below to keep score</h2>
+                <span id="game-wrapper">
+                    <label for="numberofrounds" id="numberofrounds-label"
+                        >Playing To:</label
+                    >
+                    <select id="numberofrounds" name="numberofrounds">
+                        <option value="2" name="2">2</option>
+                        <option value="3" name="3">3</option>
+                        <option value="5" name="5">5</option>
+                        <option value="7" name="7">7</option>
+                        <option value="10" name="10">10</option>
+                    </select>
+                </span>
+                <footer id="button-wrapper">
+                    <button id="player-1">+1 Player One</button
+                    ><button id="player-2">+1 Player Two</button
+                    ><button id="reset-scores-btn">Reset Scores</button>
+                </footer>
+            </span>
+        </div>
+    </body>
+</html>
